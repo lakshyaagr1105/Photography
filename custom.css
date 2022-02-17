@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.landing {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.911);
+}
+.landing-text {
+  display: flex;
+  height: 100vh;
+  flex: 0 1 40vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+h1 {
+  word-spacing: 0.8;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.5;
+}
+h3 {
+  color: rgba(54, 52, 52, 0.719);
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 3px;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.664);
+  font-weight: 350;
+  border: 1px solid black;
+  padding: 15px 35px;
+  margin: 30px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.landing-img {
+  background: url("landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.images h2 {
+  background-color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  color: white;
+  font-weight: 80;
+  height: 60px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.842);
+  color: rgba(255, 255, 255, 0.897);
+  text-align: center;
+  padding: 20px;
+  line-height: 30px;
+}
+.description h4 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.description p {
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 247, 247, 0.651);
+}
+
+footer h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  color: rgba(31, 29, 29, 0.842);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+footer p {
+  line-height: 1.7;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.863);
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: all 500ms ease;
+}
